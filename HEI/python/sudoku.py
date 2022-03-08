@@ -4,6 +4,9 @@ Created on Mon Mar  7 13:32:42 2022
 
 @author: Clément Szewczyk
 """
+
+# Tableau du Sudoku qui va être résolu
+
 sudoku =[
         [0,0,0, 0,0,0, 0,0,0],
         [0,1,9, 4,5,2, 3,6,8],
@@ -17,6 +20,7 @@ sudoku =[
         [0,0,4, 0,1,0, 7,0,5],
         [0,6,5, 7,4,3, 1,8,2],]
 
+# Fonction 
 def list_the_possibilities(liste,x,y):
     possibility = [1,2,3,4,5,6,7,8,9]
     for number in range(9):
