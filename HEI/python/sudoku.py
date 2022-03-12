@@ -20,10 +20,17 @@ sudoku =[
         [0,0,4, 0,1,0, 7,0,5],
         [0,6,5, 7,4,3, 1,8,2],]
 
-# Fonction 
+ 
 def list_the_possibilities(liste,x,y):
     possibility = [1,2,3,4,5,6,7,8,9]
     for number in range(9):
+        '''
+        ici nous avons le module "try" associé au module "except". Cela fonction de la manière suivante:
+            - try permet de réaliser un test. Si le teste est concluant, il passe à la suite du programme
+            en ignorant except. 
+            Si le test n'est pas concluant, c'est à dire qu'il y a une erreur. Le programme va donc dans except.
+            - except associé à "pass" permet de passer au autre. Cela permet d'ignorer certaine erreur.
+        '''
         try:
             possibility.remove(liste[number][y])
         except:
