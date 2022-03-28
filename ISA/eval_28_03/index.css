@@ -1,0 +1,147 @@
+header{
+    background-color: black;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    color: purple;
+    display: flex;
+}
+.H{
+    color:white
+}
+h2{
+    padding-left: 5px;
+}
+body{
+    background-color: rosybrown;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contenair{
+    background-color: purple;
+    margin: 0;
+}
+
+.button{
+    list-style-type: none;
+    display: inline-block;
+    background-color: rgb(150, 20, 60);
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 100%;
+    border: none
+
+}
+.button1{
+    list-style-type: none;
+    display: inline-block;
+    background-color: black;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 100%;
+    border: none
+
+}
+.button1:hover {
+    background-color: rosybrown;
+    transition:0.5s all;
+}
+.liste{
+    text-decoration-line: none ;
+    color: white;
+}
+.liste1{
+    text-decoration-line: none;
+    color:black
+}
+.barre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding-top: 4px;
+    
+}
+
+.partie{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.aside1{
+    display: flex;
+    justify-content: flex-start;
+}
+.figure1{    
+    border: none;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+    height: 150px;
+    background-color: rgb(150, 20, 60);
+}
+.aside{
+    color: white;
+    padding-left: 3px;
+}
+
+.figure2{
+    display: flex;
+    justify-content: flex-start;
+    border: none;
+    width: 780px;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 5px;
+    height: 150px;
+    background-color: white;
+}
+
+strong{
+    color: black;
+}
+.aside2{
+    display: flex;
+    justify-content: flex-end;
+}
+.figure3{
+    border: none;
+    width: 250px;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    height: 150px;
+    background-color: rgb(150, 20, 60);
+}
+
+p{
+    padding-left: 3px;
+}
+
+
+footer{
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.lien{
+    text-decoration-line:none ;
+    color: white;
+}
+.div{
+    display: flex;
+    justify-content: space-around;
+}
