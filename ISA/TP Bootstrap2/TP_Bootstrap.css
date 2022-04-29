@@ -1,0 +1,15 @@
+.p{
+    color: blue;
+}
+
+.espace{
+    margin: 10px;
+}
+
+.couleur{
+    margin-top: 2px ;
+    background-color: rgb(52, 52, 255);
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+}
