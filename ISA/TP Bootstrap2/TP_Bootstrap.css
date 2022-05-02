@@ -36,3 +36,14 @@
     border-left: 2px solid rgba(0, 0, 0, 0.068);
     padding-left: 20px;
 }
+
+.error{
+    background-color: rgb(244, 116, 116);
+    color: red;
+    padding-left: 4px;
+}
+
+.taille{
+    width: 99%;
+    height: 10em;
+}
