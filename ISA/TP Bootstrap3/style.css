@@ -1,0 +1,13 @@
+body{
+    padding: 60px;
+    background-color: rgb(40, 39, 39);
+}
+
+h1{
+    color: white;
+}
+
+.taille{
+    width: 400px;
+    height: 500px;
+}
