@@ -1,0 +1,16 @@
+/**************** FOOTER ************************/
+.espace{
+    margin-left: 40px;
+}
+
+/************ SECTION *****************/ 
+
+.img{
+    width: 60%;
+    height: 40%;
+    box-shadow: 4px 4px 4px 4px gray;
+}
+
+.color{
+ color: black;
+}
